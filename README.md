@@ -40,6 +40,7 @@
 그리고 반응형 웹으로 제작하였기 때문에 화면크기 변경될때의 슬라이드 항목의 비율 이벤트도 입력하였습니다.
 
 // 반응형 웹 슬라이드
+
 const swiper = new Swiper('.port-drawing',{
         // 기본
         slidesPerView:1.5,
