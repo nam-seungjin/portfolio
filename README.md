@@ -7,6 +7,36 @@
 평소 웹사이트를 보면서 내가 했던 작업이나 디자인을 보여주기 위해 사진을 클릭했을 시에 팝업창으로 내가 했던 것을 디자인해서 보여주는 형식으로
 제작했습니다. 그리고 스크롤 이벤트를 주면서 네비항목을 클릭했을때도 TOP버튼을 눌렀을때에도 스크롤 될 수 있도록 하였습니다.
 #### 기술
+
+사진을 클릭 할 시에 팝업으로 사진이 뜨도록 설정을 하였습니다.
+
+//사진 클릭 팝업 이벤트
+// 드로잉 팝업 이벤트
+    $('.port-drawing .img-box').click(function(){
+        console.log($(this).index());
+        $('.popup li').css('display','none');
+        $('.popup li').eq($(this).index()).css('display','flex');
+    })
+
+ // 드로잉 팝업 닫기 이벤트
+    $('.btn-popup-close').click(function(){
+        $('.popup li').css('display','none');
+    })
+
+// 디자인 팝업 이벤트
+    $('.port-design .img-box').click(function(){
+        console.log($(this).index());
+        $('.popup2 li').css('display','none');
+        $('.popup2 li').eq($(this).index()).css('display','flex');
+    })
+    
+// 디자인 팝업 닫기 이벤트
+    $('.popup-close2').click(function(){
+        $('.popup2 li').css('display','none');
+    })
+
+
+    
 CSS 파일에 이러한 bxslider.css 파일을 추가하였고
 
 
