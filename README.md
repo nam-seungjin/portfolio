@@ -11,6 +11,7 @@
 사진을 클릭 할 시에 팝업으로 사진이 뜨도록 설정을 하였습니다.
 
 //사진 클릭 팝업 이벤트
+
 // 드로잉 팝업 이벤트
     $('.port-drawing .img-box').click(function(){
         console.log($(this).index());
