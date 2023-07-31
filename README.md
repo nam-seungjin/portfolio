@@ -37,6 +37,53 @@
     })
 
 
+그리고 반응형 웹으로 제작하였기 때문에 화면크기 변경될때의 슬라이드 항목의 비율 이벤트도 추가하였습니다.
+
+// 반응형 웹 슬라이드
+const swiper = new Swiper('.port-drawing',{
+        // 기본
+        slidesPerView:1.5,
+        spaceBetween:30,
+        breakpoints:{
+            360:{
+                slidesPerView:1.5,
+                spaceBetween:30,
+            },
+            768:{
+                slidesPerView:2.5,
+                spaceBetween:25,
+            },
+            941:{
+                slidesPerView:3.5,
+                spaceBetween:30,
+            },
+            1200:{
+                slidesPerView:4.5,
+            },
+        }
+    });
+    const swiper2 = new Swiper('.port-design',{
+        // 기본
+        slidesPerView:1.5,
+        spaceBetween:30,
+        breakpoints:{
+            360:{
+                slidesPerView:1.5,
+                spaceBetween:30,
+            },
+            768:{
+                slidesPerView:2.5,
+                spaceBetween:25,
+            },
+            941:{
+                slidesPerView:3.5,
+                spaceBetween:30,
+            },
+            1200:{
+                slidesPerView:4.5,
+            },
+        }
+    });
     
 CSS 파일에 이러한 bxslider.css 파일을 추가하였고
 
