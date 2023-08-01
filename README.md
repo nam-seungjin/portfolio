@@ -1,3 +1,4 @@
+[포트폴리오바로가기](https://nam-seungjin.github.io/portfolio/)
 # portfolio
 ## 소개
 반응형 웹으로 제작하였고 나의 소개 및 할 수 있는 기술들이 들어가 있습니다.
@@ -9,4 +10,4 @@ TOURIST 반응형 웹사이트
 
 제작기간 : 2023-06-19 ~ 2023-07-03
 
-[사이트바로가기](https://nam-seungjin.github.io/tourist/)
+[TOURIST바로가기](https://nam-seungjin.github.io/tourist/)
