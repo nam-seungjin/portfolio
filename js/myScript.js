@@ -91,4 +91,6 @@ $(function(){
         }
     })
 
+    AOS.init();
+
 })
